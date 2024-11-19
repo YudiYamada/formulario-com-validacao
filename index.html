@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Validação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="info">
+            <h1 class="titulo">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p class="sub-titulo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <form class="formulario" id="formulario">
+            <div class="divisao">
+                <input type="text" placeholder="Nome completo *" class="inputs requerido" oninput="nameValidacao()" id="nome">
+                <span class="requerimento">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+
+            <div class="divisao">
+                <input type="email" placeholder="Email *" class="inputs requerido" oninput="emailValidacao()" id="email">
+                <span class="requerimento">Digite um email válido</span>
+            </div class="divisao">
+
+            <div class="divisao">
+                <input type="tel" placeholder="Telefone *" class="inputs requerido"
+                oninput="telefoneValidacao()" id="telefone">
+                <span class="requerimento">Digite um número válido</span>
+            </div>
+            
+            <div class="divisao">
+                <textarea cols="25" rows="10" placeholder="Mensagem *" class="mensagem requerido" oninput="mensagemValidacao()"></textarea>
+                <span class="requerimento">Campo obrigatório</span>
+            </div>
+            <p class="aviso">*campos obrigatórios</p>
+            <button type="submit" class="botao" id="botao">Enviar</button>
+        </form>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+</html>

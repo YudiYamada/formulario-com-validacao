@@ -1,0 +1,109 @@
+body{
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    height: 100%;
+    width: 800px;
+    height: 402px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.container .info{
+    margin-left: 50px;
+    width: 300px;
+    height: 111px;
+}
+
+.container .info .titulo{
+    width: 287.25px;
+    height: 46px;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 23.44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.container .info .sub-titulo{
+    width: 300px;
+    height: 54px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 17.58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.container .formulario{
+    width: 340px;
+    height: 378px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .formulario .divisao{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.container .formulario .requerimento{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #F52E2E;
+    display: none;
+}
+
+.container .formulario .inputs{
+    width: 298.01px;
+    height: 35.11px;
+    border-radius: 5px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.container .formulario .mensagem{
+    width: 298.01px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 9px;
+    outline: none;
+}
+
+.container .formulario .aviso{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.container .formulario .botao{
+    background-color: #3CCC87;
+    color: #ffffff;
+    width: 298.01px;
+    height: 41.13px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
