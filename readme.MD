@@ -4,9 +4,7 @@
 
 Criar um formulário, onde a validação tem que ser totalmente feita com o JavaScript.
 
-## [Vizualize o projeto clicando aqui]() ##
-
-https://yudiyamada.github.io/formulario-com-validacao/
+## [Vizualize o projeto clicando aqui](https://yudiyamada.github.io/formulario-com-validacao/) ##
 
 ## Tecnologias utilizadas
 
